@@ -7,7 +7,8 @@ const router = require("./html-routes");
 // GET /api/notes should read the db.json file and return all saved notes as JSON.
 
 router.get("/api/notes", async (req, res) => {
-  const dbJSON = await fs.promises.readFile("db/db.json", "utf8");
+  const dbJSON = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
+  console.log(dbJSON); 
   res.json(dbJSON);
 });
 
