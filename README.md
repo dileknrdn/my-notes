@@ -54,7 +54,7 @@ MIT License
 
 ## Deployment Link 
 
-https://my-notes-dlknrdn-071c24fcedc9.herokuapp.com/notes 
+https://my-notes-dlknrdn-071c24fcedc9.herokuapp.com/
 
 ## Author 
 Dilek Nuredin
